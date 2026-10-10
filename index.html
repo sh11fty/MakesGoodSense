@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Good Sense Accountancy | Accountants in Rotherham</title>
+<meta name="description" content="Fixed-price accounts, self assessment and bookkeeping for sole traders, CIS subcontractors and small companies in Rotherham. Free 15-minute chat.">
+<link rel="canonical" href="https://makesgoodsense.co.uk/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Good Sense Accountancy">
+<meta property="og:description" content="Fixed-price accounts, self assessment and bookkeeping for sole traders, CIS subcontractors and small companies in Rotherham. Free 15-minute chat.">
+<meta property="og:url" content="https://makesgoodsense.co.uk/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2312285A'/%3E%3Cpath d='M22.1 10.9A8 8 0 1 0 24 16H16' fill='none' stroke='%23F2A33A' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"AccountingService","name":"Good Sense Accountancy","url":"https://makesgoodsense.co.uk/","email":"hello@makesgoodsense.co.uk","address":{"@type":"PostalAddress","streetAddress":"31 Queen Street","addressLocality":"Rotherham","postalCode":"S65 2SR","addressCountry":"GB"}}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: left-aligned landing page. Hero copy sits beside a printed-style quote receipt (the one bold object).
+   Ruled ledger rows for add-ons and trades. Navy bands for prices and contact. */
+:root{
+  color-scheme:light;
+  --bg:#F3F5F9;
+  --surface:#FFFFFF;
+  --ink:#0E1A33;
+  --ink-soft:#43506B;
+  --accent-text:#14295C;
+  --line:#D3DAE6;
+  --band:#12285A;
+  --band-ink:#EEF2FB;
+  --band-soft:#B4C1DD;
+  --band-line:#2F4580;
+  --amber:#F2A33A;
+  --amber-hover:#F7B455;
+  --amber-ink:#2A1A00;
+  --paper:#FFFEF9;
+  --paper-ink:#1B2236;
+  --paper-soft:#5B6579;
+  --paper-line:#CDC9BB;
+  --focus:#1D58F0;
+  --f-display:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --radius:.75rem;
+  --sec:clamp(3.5rem,8vw,6rem);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A1226;--surface:#111B36;--ink:#EAF0FB;--ink-soft:#A9B6D0;--accent-text:#A9C0FF;
+    --line:#26365C;--band:#15306E;--band-line:#34509A;--focus:#9DB8FF;color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0A1226;--surface:#111B36;--ink:#EAF0FB;--ink-soft:#A9B6D0;--accent-text:#A9C0FF;
+  --line:#26365C;--band:#15306E;--band-line:#34509A;--focus:#9DB8FF;color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6;-webkit-text-size-adjust:100%}
+h1,h2,h3{font-family:var(--f-display);line-height:1.08;letter-spacing:-.02em;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.5rem,6.2vw,4.5rem);font-weight:800}
+h2{font-size:clamp(1.9rem,4.2vw,3rem);font-weight:750}
+h3{font-size:1.25rem;font-weight:700;letter-spacing:-.01em}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:4px}
+section[id]{scroll-margin-top:4.5rem}
+.wrap{width:min(100% - 2rem,72rem);margin-inline:auto}
+.sec{padding-block:var(--sec)}
+.sec--tight{padding-top:0}
+.sec__head{max-width:40rem;margin-bottom:2.5rem}
+.sec__head p{color:var(--ink-soft);margin-top:1rem;font-size:1.1rem}
+
+/* Header */
+.site-head{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+.site-head__in{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:.7rem}
+.brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;font-family:var(--f-display);font-size:1.12rem;letter-spacing:-.01em;min-width:0}
+.brand b{font-weight:800;line-height:1.1}
+.brand b span{font-weight:500;color:var(--ink-soft)}
+.logo-bg{fill:var(--band)}
+.logo-g{fill:none;stroke:var(--amber);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.nav{display:none;gap:1.6rem;font-weight:600;font-size:.95rem}
+.nav a{text-decoration:none;color:var(--ink-soft)}
+.nav a:hover{color:var(--ink)}
+@media(min-width:860px){.nav{display:flex}}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.8rem 1.35rem;border:0;border-radius:.6rem;background:var(--amber);color:var(--amber-ink);font:inherit;font-weight:700;line-height:1.2;text-decoration:none;cursor:pointer;transition:background .15s}
+.btn:hover{background:var(--amber-hover)}
+.btn--sm{padding:.55rem 1rem;font-size:.95rem;flex:none}
+.btn-link{font-weight:650;text-underline-offset:.2em}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:minmax(0,1fr);gap:2.75rem;align-items:center;padding-block:clamp(2.5rem,6vw,4.5rem) clamp(2.25rem,5vw,3.5rem)}
+@media(min-width:900px){.hero{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:4rem}}
+.eyebrow{font-family:var(--f-mono);font-size:.78rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);margin-bottom:1.1rem}
+.hero h1 .hl{text-decoration:underline;text-decoration-color:var(--amber);text-decoration-thickness:.12em;text-underline-offset:.1em;text-decoration-skip-ink:none}
+.hero h1 .sub{display:block;margin-top:.4em;font-size:.6em;font-weight:600;letter-spacing:-.01em;line-height:1.2;color:var(--ink-soft)}
+.lede{max-width:34rem;margin-top:1.4rem;font-size:1.2rem;color:var(--ink-soft)}
+.cta-row{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem 1.5rem;margin-top:1.75rem}
+.proof{list-style:none;margin:1.75rem 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;font-size:.95rem;font-weight:600}
+.proof li::before{content:"";display:inline-block;width:.42rem;height:.78rem;margin-right:.65rem;border:solid var(--accent-text);border-width:0 3px 3px 0;transform:rotate(45deg) translate(-2px,-2px)}
+
+/* Quote receipt */
+.receipt-wrap{justify-self:center;width:min(100%,22rem);filter:drop-shadow(0 14px 22px rgba(10,20,50,.22))}
+@media(min-width:900px){.receipt-wrap{justify-self:end;transform:rotate(1.8deg)}}
+.receipt{padding:1.5rem 1.4rem 2.3rem;background:var(--paper);color:var(--paper-ink);font-family:var(--f-mono);
+  -webkit-mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/18px 100%;
+  mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) 50%/18px 100%}
+.receipt__brand{text-align:center;font-size:.78rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase}
+.receipt__kind{margin-top:.25rem;padding-bottom:1rem;border-bottom:1px dashed var(--paper-line);text-align:center;font-size:.8rem;color:var(--paper-soft)}
+.receipt__lines{list-style:none;margin:0;padding:0}
+.receipt__lines li{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding:.65rem 0;border-bottom:1px dashed var(--paper-line);font-size:.88rem;line-height:1.35}
+.tick{flex:none;width:.45rem;height:.85rem;margin-right:.25rem;border:solid var(--paper-ink);border-width:0 2px 2px 0;transform:rotate(45deg) translateY(-2px)}
+.receipt__total{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;padding-top:1.1rem}
+.receipt__total span{max-width:7rem;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;line-height:1.3}
+.receipt__total strong{padding:.05em .18em;border-radius:.15em;background:var(--amber);color:var(--amber-ink);font-family:var(--f-display);font-size:3rem;font-weight:800;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.receipt__foot{margin-top:1rem;text-align:center;font-size:.78rem;color:var(--paper-soft)}
+
+/* Trade strip */
+.trades{border-block:1px solid var(--line);padding-block:1rem}
+.trades__in{display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1.25rem}
+.trades__label{font-family:var(--f-mono);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.trades ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem 1.5rem;font-weight:600}
+
+/* Benefits */
+.benefits{display:grid;grid-template-columns:minmax(0,1fr);gap:2rem 3rem}
+@media(min-width:720px){.benefits{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.benefit{border-top:2px solid var(--ink);padding-top:1.1rem}
+.benefit svg{display:block;width:1.7rem;height:1.7rem;margin-bottom:.8rem;fill:none;stroke:var(--accent-text);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.benefit p{max-width:30rem;margin-top:.5rem;color:var(--ink-soft)}
+
+/* Steps */
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:minmax(0,1fr);gap:2rem}
+@media(min-width:800px){.steps{grid-template-columns:repeat(3,minmax(0,1fr));gap:3rem}}
+.step__n{display:block;margin-bottom:.6rem;font-family:var(--f-display);font-size:3.4rem;font-weight:800;line-height:1;letter-spacing:-.04em;color:var(--accent-text)}
+.step p{margin-top:.5rem;color:var(--ink-soft)}
+
+/* Bands */
+.band{background:var(--band);color:var(--band-ink)}
+.band .sec__head p{color:var(--band-soft)}
+
+/* Plans */
+.plans{display:grid;grid-template-columns:minmax(0,1fr);gap:1.25rem}
+@media(min-width:700px){.plans{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1100px){.plans{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.plan{display:flex;flex-direction:column;gap:1.15rem;padding:1.6rem;border-radius:var(--radius);background:var(--surface);color:var(--ink)}
+@media(min-width:700px){.plan__head{min-height:3.7rem}}
+@media(min-width:1100px){.plan__head{min-height:6.2rem}}
+.plan__name{font-family:var(--f-display);font-size:1.3rem;font-weight:750;letter-spacing:-.01em}
+.plan__who{margin-top:.25rem;font-size:.95rem;color:var(--ink-soft)}
+.plan__price{display:flex;align-items:flex-end;gap:.5rem;min-height:3rem}
+.plan__amt{font-family:var(--f-display);font-size:3rem;font-weight:800;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.plan__amt--text{font-size:1.5rem;line-height:1.1;letter-spacing:-.02em}
+.plan__per{font-family:var(--f-mono);font-size:.8rem;color:var(--ink-soft)}
+.plan__list{list-style:none;margin:0;padding:0;display:grid;gap:.6rem;font-size:.98rem}
+.plan__list li{display:flex;gap:.8rem}
+.plan__list li::before{content:"";flex:none;width:.4rem;height:.75rem;margin:.28rem 0 0 .15rem;border:solid var(--accent-text);border-width:0 2px 2px 0;transform:rotate(45deg)}
+.plan .btn{margin-top:auto}
+.plan--quote{background:transparent;color:var(--band-ink);border:1.5px solid var(--band-line)}
+.plan--quote .plan__who,.plan--quote .plan__per{color:var(--band-soft)}
+.plan--quote .plan__list li::before{border-color:var(--amber)}
+
+/* Ledger rows (add-ons, trades) */
+.rows{--rule:var(--line);list-style:none;margin:0;padding:0}
+.band .rows{--rule:var(--band-line)}
+.row{display:grid;grid-template-columns:minmax(0,1fr);gap:.25rem 2rem;padding-block:1.05rem;border-top:1px solid var(--rule)}
+.row:last-child{border-bottom:1px solid var(--rule)}
+.row__name{font-weight:700}
+.row--addon .row__price{font-family:var(--f-mono);font-weight:500;font-variant-numeric:tabular-nums;color:var(--amber)}
+.row--addon .row__note{font-size:.95rem;color:var(--band-soft)}
+.row--trade .row__name{font-family:var(--f-display);font-size:1.2rem;font-weight:700;letter-spacing:-.01em}
+.row--trade .row__note{color:var(--ink-soft)}
+@media(min-width:760px){
+  .row--addon{grid-template-columns:minmax(0,1.1fr) minmax(0,.8fr) minmax(0,1.3fr);align-items:baseline}
+  .row--trade{grid-template-columns:minmax(0,14rem) minmax(0,1fr);align-items:baseline}
+}
+.addons{margin-top:3.25rem}
+.addons h3{margin-bottom:.9rem}
+
+/* Split sections */
+.split{display:grid;grid-template-columns:minmax(0,1fr);gap:2rem}
+@media(min-width:900px){.split{grid-template-columns:minmax(0,.8fr) minmax(0,1.6fr);gap:4rem}}
+.split .sec__head{margin-bottom:0}
+
+/* FAQ */
+.faq details{border-top:1px solid var(--line)}
+.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.1rem 0;font-size:1.08rem;font-weight:650;list-style:none;cursor:pointer}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";flex:none;font-family:var(--f-mono);font-size:1.4rem;line-height:1;color:var(--accent-text)}
+.faq details[open] summary::after{content:"\2013"}
+.faq p{max-width:40rem;padding-bottom:1.2rem;color:var(--ink-soft)}
+
+/* Contact */
+.contact{display:grid;grid-template-columns:minmax(0,1fr);gap:2.5rem}
+@media(min-width:900px){.contact{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:4rem;align-items:start}}
+.contact__lede{margin-top:1rem;max-width:30rem;font-size:1.1rem;color:var(--band-soft)}
+.contact .btn{margin-top:1.75rem}
+.contact__list{list-style:none;margin:0;padding:0}
+.contact__row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.25rem 1rem;align-items:center;padding-block:1rem;border-top:1px solid var(--band-line)}
+.contact__row:last-child{border-bottom:1px solid var(--band-line)}
+.contact__k{grid-column:1/-1;font-family:var(--f-mono);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--band-soft)}
+.contact__v{font-size:1.1rem;font-weight:650;overflow-wrap:anywhere}
+.copy{padding:.35rem .8rem;border:1px solid var(--band-line);border-radius:.5rem;background:transparent;color:var(--band-ink);font:inherit;font-size:.85rem;font-weight:600;cursor:pointer}
+.copy:hover{border-color:var(--band-soft)}
+
+/* Footer */
+.foot{padding-block:2rem 2.5rem;font-size:.9rem;color:var(--ink-soft)}
+.foot__in{display:grid;grid-template-columns:minmax(0,1fr);gap:1rem}
+@media(min-width:800px){.foot__in{grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:3rem}}
+.foot strong{color:var(--ink)}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap site-head__in">
+    <a class="brand" href="#top" aria-label="Good Sense Accountancy, back to top">
+      <svg width="34" height="34" viewBox="0 0 32 32" aria-hidden="true"><rect class="logo-bg" width="32" height="32" rx="7"/><path class="logo-g" d="M22.1 10.9A8 8 0 1 0 24 16H16"/></svg>
+      <b>Good Sense <span>Accountancy</span></b>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#prices">Prices</a>
+      <a href="#who">Who we help</a>
+      <a href="#faq">Questions</a>
+    </nav>
+    <a class="btn btn--sm" href="#quote">Free quote</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap hero">
+    <div>
+      <p class="eyebrow">Accountancy for sole traders and small companies &middot; Rotherham</p>
+      <h1>Your accounts, done <span class="hl">properly.</span> <span class="sub">By someone who knows your name.</span></h1>
+      <p class="lede">One fixed price for the year. Plain English. The same person every time, so you never have to explain your business twice.</p>
+      <div class="cta-row">
+        <a class="btn" href="#quote">Get your free quote</a>
+        <a class="btn-link" href="#prices">See the prices</a>
+      </div>
+      <ul class="proof">
+        <li>Fixed annual fee</li>
+        <li>Free 15-minute intro call</li>
+        <li>Reply within one working day</li>
+      </ul>
+    </div>
+
+    <aside class="receipt-wrap" aria-label="Example: the sole trader package">
+      <div class="receipt">
+        <p class="receipt__brand">Good Sense Accountancy</p>
+        <p class="receipt__kind">Sole trader package</p>
+        <ul class="receipt__lines">
+          <li><span>Year-end accounts</span><i class="tick" aria-hidden="true"></i></li>
+          <li><span>Self assessment return, filed</span><i class="tick" aria-hidden="true"></i></li>
+          <li><span>Tax bill explained</span><i class="tick" aria-hidden="true"></i></li>
+          <li><span>One point of contact</span><i class="tick" aria-hidden="true"></i></li>
+        </ul>
+        <div class="receipt__total"><span>Fixed fee, per year</span><strong>&pound;395</strong></div>
+        <p class="receipt__foot">Agreed before we start.</p>
+      </div>
+    </aside>
+  </section>
+
+  <div class="trades">
+    <div class="wrap trades__in">
+      <span class="trades__label">Working with</span>
+      <ul>
+        <li>Hairdressers</li>
+        <li>Barbers</li>
+        <li>Dog walkers</li>
+        <li>Taxi drivers</li>
+        <li>Driving instructors</li>
+        <li>CIS subcontractors</li>
+        <li>Plumbers</li>
+        <li>Electricians</li>
+        <li>Cleaners</li>
+        <li>Small limited companies</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="sec wrap" id="why">
+    <div class="sec__head"><h2>Four things you can count on.</h2></div>
+    <div class="benefits">
+      <article class="benefit">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-3.9 3.1-6.5 7-6.5s7 2.6 7 6.5"/></svg>
+        <h3>The same person, every time</h3>
+        <p>You deal with one point of contact who knows your business and your history, year after year.</p>
+      </article>
+      <article class="benefit">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12.5V4h8.5L21 13.5 13.5 21 3 12.5z"/><circle cx="7.5" cy="8.5" r="1.3"/></svg>
+        <h3>A price before we start</h3>
+        <p>You get one fixed annual fee in writing. If anything falls outside it, we tell you first and you decide.</p>
+      </article>
+      <article class="benefit">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11h-9.5L6 20v-4H4z"/></svg>
+        <h3>Plain English</h3>
+        <p>You know what you owe, when it&rsquo;s due and why. Questions get straight answers.</p>
+      </article>
+      <article class="benefit">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>
+        <h3>Done and filed on time</h3>
+        <p>We prepare your accounts and file your returns ahead of the deadline.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec sec--tight wrap" id="how">
+    <div class="sec__head"><h2>Start with a 15-minute chat.</h2></div>
+    <ol class="steps">
+      <li class="step">
+        <span class="step__n">1</span>
+        <h3>Say hello</h3>
+        <p>Call, message or email. We&rsquo;ll have a free 15-minute chat about what you do and what you need.</p>
+      </li>
+      <li class="step">
+        <span class="step__n">2</span>
+        <h3>Get your fixed price</h3>
+        <p>You get the price in writing. Take your time. No pressure to say yes.</p>
+      </li>
+      <li class="step">
+        <span class="step__n">3</span>
+        <h3>Send what you have</h3>
+        <p>Receipts, bank statements, a spreadsheet, whatever you keep. We do the work and you see your figures before anything is filed.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="band" id="prices">
+    <div class="sec wrap">
+      <div class="sec__head">
+        <h2>Fixed annual prices.</h2>
+        <p>One price for the year, agreed before we start.</p>
+      </div>
+      <div class="plans">
+        <article class="plan">
+          <div class="plan__head">
+            <h3 class="plan__name">Sole trader</h3>
+            <p class="plan__who">For one-person businesses that don&rsquo;t need Making Tax Digital yet.</p>
+          </div>
+          <p class="plan__price"><span class="plan__amt">&pound;395</span><span class="plan__per">per year</span></p>
+          <ul class="plan__list">
+            <li>Year-end accounts</li>
+            <li>Self assessment return, filed for you</li>
+            <li>Your tax bill worked out and explained</li>
+            <li>One point of contact</li>
+          </ul>
+          <a class="btn" href="#quote">Get started</a>
+        </article>
+
+        <article class="plan">
+          <div class="plan__head">
+            <h3 class="plan__name">Sole trader + MTD</h3>
+            <p class="plan__who">For one-person businesses on Making Tax Digital.</p>
+          </div>
+          <p class="plan__price"><span class="plan__amt">&pound;545</span><span class="plan__per">per year</span></p>
+          <ul class="plan__list">
+            <li>Everything in the sole trader package</li>
+            <li>Making Tax Digital quarterly updates, four a year</li>
+          </ul>
+          <a class="btn" href="#quote">Get started</a>
+        </article>
+
+        <article class="plan">
+          <div class="plan__head">
+            <h3 class="plan__name">Limited company</h3>
+            <p class="plan__who">For single-director companies.</p>
+          </div>
+          <p class="plan__price"><span class="plan__amt">&pound;795</span><span class="plan__per">per year</span></p>
+          <ul class="plan__list">
+            <li>Year-end accounts</li>
+            <li>Corporation tax return</li>
+            <li>Filing at Companies House</li>
+            <li>Confirmation statement</li>
+            <li>Director&rsquo;s self assessment return</li>
+            <li>One point of contact</li>
+          </ul>
+          <a class="btn" href="#quote">Get started</a>
+        </article>
+
+        <article class="plan plan--quote">
+          <div class="plan__head">
+            <h3 class="plan__name">CIS subcontractor</h3>
+            <p class="plan__who">For subcontractors who have tax taken off their payments.</p>
+          </div>
+          <p class="plan__price"><span class="plan__amt plan__amt--text">Quoted for you</span></p>
+          <ul class="plan__list">
+            <li>Everything in the sole trader package, with Making Tax Digital if you need it</li>
+            <li>CIS deductions checked against your statements</li>
+            <li>Refund claimed where you&rsquo;re owed one</li>
+          </ul>
+          <a class="btn" href="#quote">Get a CIS quote</a>
+        </article>
+      </div>
+
+      <div class="addons">
+        <h3>Add what you need</h3>
+        <ul class="rows">
+          <li class="row row--addon">
+            <span class="row__name">Bookkeeping and VAT returns</span>
+            <span class="row__price">&pound;50 &ndash; &pound;150 per quarter</span>
+            <span class="row__note">Depends on how tidy your records are, the software you use, and whether you want full bookkeeping or just a final check.</span>
+          </li>
+          <li class="row row--addon">
+            <span class="row__name">Payroll, 1 to 2 employees</span>
+            <span class="row__price">&pound;10 per month</span>
+          </li>
+          <li class="row row--addon">
+            <span class="row__name">Payroll, each extra employee</span>
+            <span class="row__price">&pound;5 per month</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="who">
+    <div class="split">
+      <div class="sec__head"><h2>You know your trade. We handle the paperwork.</h2></div>
+      <ul class="rows">
+        <li class="row row--trade"><span class="row__name">Hairdressers and barbers</span><span class="row__note">Chair rent, products, courses and tools, all claimed properly.</span></li>
+        <li class="row row--trade"><span class="row__name">Dog walkers and pet sitters</span><span class="row__note">Insurance, fuel and equipment, sorted without fuss.</span></li>
+        <li class="row row--trade"><span class="row__name">Taxi and private hire drivers</span><span class="row__note">Vehicle costs, licence and plate fees, fuel and insurance.</span></li>
+        <li class="row row--trade"><span class="row__name">Driving instructors</span><span class="row__note">Franchise fees, car running costs and dual controls.</span></li>
+        <li class="row row--trade"><span class="row__name">CIS subcontractors</span><span class="row__note">Tax taken off your payments? We&rsquo;ll work out if you&rsquo;re owed money back.</span></li>
+        <li class="row row--trade"><span class="row__name">Tradespeople</span><span class="row__note">Tools, van costs and materials, from plumbers and electricians to joiners and decorators.</span></li>
+        <li class="row row--trade"><span class="row__name">Something else?</span><span class="row__note">If you work for yourself, tell us what you do and we&rsquo;ll say straight away if we can help.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec sec--tight wrap" id="faq">
+    <div class="split">
+      <div class="sec__head"><h2>Questions people ask.</h2></div>
+      <div class="faq">
+        <details>
+          <summary>What do you need from me?</summary>
+          <p>Your bank statements, your sales records (invoices, takings or a spreadsheet) and your receipts. If you&rsquo;ve had accounts done before, last year&rsquo;s figures help. Not sure what counts? Ask and we&rsquo;ll tell you.</p>
+        </details>
+        <details>
+          <summary>My records are a bit of a mess. Is that a problem?</summary>
+          <p>Tell us up front and we&rsquo;ll say what&rsquo;s needed. If tidying up goes beyond your fixed fee, we agree the cost with you before we start.</p>
+        </details>
+        <details>
+          <summary>What does the fixed fee cover?</summary>
+          <p>Everything listed in your package. If you want something extra, such as bookkeeping, VAT returns or payroll, we quote it separately and you say yes or no first.</p>
+        </details>
+        <details>
+          <summary>What is Making Tax Digital?</summary>
+          <p>It means sending HMRC short updates every quarter instead of one return a year. It applies to self-employed and rental income over &pound;50,000 from April 2026, over &pound;30,000 from April 2027 and over &pound;20,000 from April 2028. If it applies to you, choose the sole trader + MTD package. Not sure? Ask and we&rsquo;ll check.</p>
+        </details>
+        <details>
+          <summary>Can you take over my accounts from someone else?</summary>
+          <p>Yes. We&rsquo;ll tell you what we need to pick up where things were left.</p>
+        </details>
+        <details>
+          <summary>Do I have to come in to see you?</summary>
+          <p>No. Most things can be done by phone, WhatsApp or email. If you&rsquo;d rather meet in person, just ask.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="quote">
+    <div class="sec wrap contact">
+      <div>
+        <h2>Get your free quote.</h2>
+        <p class="contact__lede">Tell us what you do and whether you&rsquo;re a sole trader or a limited company. If CIS tax comes off your payments, say so. You&rsquo;ll have your fixed price within one working day.</p>
+        <a class="btn" href="mailto:hello@makesgoodsense.co.uk">Email us</a>
+      </div>
+      <ul class="contact__list">
+        <!-- PLACEHOLDER: replace with the real phone number -->
+        <li class="contact__row"><span class="contact__k">Phone</span><span class="contact__v">01709 XXX XXX</span></li>
+        <!-- PLACEHOLDER: replace with the real WhatsApp number -->
+        <li class="contact__row"><span class="contact__k">WhatsApp</span><span class="contact__v">07XXX XXXXXX</span></li>
+        <li class="contact__row"><span class="contact__k">Email</span><span class="contact__v" id="email-text">hello@makesgoodsense.co.uk</span><button class="copy" id="copy-email" type="button">Copy</button></li>
+        <li class="contact__row"><span class="contact__k">Address</span><span class="contact__v">31 Queen Street, Rotherham, S65 2SR</span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <p><strong>Good Sense Accountancy</strong><br>31 Queen Street, Rotherham, S65 2SR</p>
+    <p>Company no. [to add]. Anti-money laundering supervisor and registration no. [to add]. ICO registration no. [to add]. Professional indemnity insurance: [to add].<br>&copy; 2026 Good Sense Accountancy. Prices are annual and fixed for the services listed. <a href="privacy.html">Privacy notice</a></p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var btn=document.getElementById('copy-email');
+  var txt=document.getElementById('email-text');
+  if(!btn||!txt)return;
+  function select(){
+    try{
+      var r=document.createRange();r.selectNodeContents(txt);
+      var s=window.getSelection();s.removeAllRanges();s.addRange(r);
+      btn.textContent='Selected';
+    }catch(e){}
+    setTimeout(function(){btn.textContent='Copy';},1800);
+  }
+  btn.addEventListener('click',function(){
+    try{
+      navigator.clipboard.writeText(txt.textContent.trim()).then(function(){
+        btn.textContent='Copied';
+        setTimeout(function(){btn.textContent='Copy';},1800);
+      },select);
+    }catch(e){select();}
+  });
+})();
+</script>
+</body>
+</html>
