@@ -9,7 +9,7 @@ Google Business Profile, Search Console and directories need your Google login, 
 - **Service areas:** Rotherham, Sheffield, Wath-upon-Dearne, Maltby, Dinnington, Swinton, Barnsley, Doncaster
 - **Website:** https://makesgoodsense.co.uk/
 - **Phone:** use the same number as the website (still a placeholder on the site, fix it first)
-- **Hours:** set the real ones
+- **Hours:** set the evenings and weekends you will really answer (e.g. weekday evenings, Saturday morning), or use "by appointment". Keep them true: Google shows them to searchers
 - **Description (750 max):**
   Fixed-price accountants in Rotherham, working with clients across Sheffield and South Yorkshire. We do accounts, self assessment and tax returns for sole traders, CIS subcontractors and small limited companies. Sole trader accounts from £395 a year, limited companies from £415. You deal with the same person every time, in plain English. Book a free 15-minute chat and get your fixed price within one working day.
 - **Services (add each with price):** Sole trader accounts and tax return £395/yr; Sole trader with Making Tax Digital £545/yr; Limited company accounts from £415/yr; CIS tax refund and returns (quoted); Bookkeeping and VAT returns £50-£150/qtr; Payroll £10/month
