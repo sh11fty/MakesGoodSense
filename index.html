@@ -22,7 +22,7 @@
 <meta name="twitter:image" content="https://makesgoodsense.co.uk/og.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2312285A'/%3E%3Cpath d='M22.1 10.9A8 8 0 1 0 24 16H16' fill='none' stroke='%23F2A33A' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "AccountingService", "@id": "https://makesgoodsense.co.uk/#business", "name": "Good Sense Accountancy", "url": "https://makesgoodsense.co.uk/", "email": "hello@makesgoodsense.co.uk", "telephone": "+441709456850", "image": "https://makesgoodsense.co.uk/og.png", "priceRange": "From £395 a year", "description": "Fixed-price accounts and tax returns for sole traders, CIS subcontractors and small limited companies.", "address": {"@type": "PostalAddress", "addressLocality": "Rotherham", "addressRegion": "South Yorkshire", "addressCountry": "GB"}, "areaServed": [{"@type": "City", "name": "Rotherham"}, {"@type": "City", "name": "Sheffield"}, {"@type": "AdministrativeArea", "name": "South Yorkshire"}], "logo": "https://makesgoodsense.co.uk/og.png", "knowsAbout": ["Self assessment", "Sole trader accounts", "Construction Industry Scheme", "Making Tax Digital", "Limited company accounts", "VAT returns", "Payroll"], "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Fixed annual prices", "itemListElement": [{"@type": "Offer", "name": "Sole trader accounts and tax return", "price": "395", "priceCurrency": "GBP", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "395", "priceCurrency": "GBP", "unitText": "YEAR"}}, {"@type": "Offer", "name": "Sole trader with Making Tax Digital", "price": "545", "priceCurrency": "GBP", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "545", "priceCurrency": "GBP", "unitText": "YEAR"}}, {"@type": "Offer", "name": "Limited company accounts (from)", "price": "415", "priceCurrency": "GBP", "priceSpecification": {"@type": "UnitPriceSpecification", "price": "415", "priceCurrency": "GBP", "unitText": "YEAR"}}]}}
+{"@context": "https://schema.org", "@type": "AccountingService", "@id": "https://makesgoodsense.co.uk/#business", "name": "Good Sense Accountancy", "url": "https://makesgoodsense.co.uk/", "email": "hello@makesgoodsense.co.uk", "telephone": "+441709456850", "image": "https://makesgoodsense.co.uk/og.png", "priceRange": "From £395 a year", "description": "Fixed-price accounts and tax returns for sole traders, CIS subcontractors and small limited companies.", "address": {"@type": "PostalAddress", "addressLocality": "Rotherham", "addressRegion": "South Yorkshire", "addressCountry": "GB"}, "areaServed": [{"@type": "City", "name": "Rotherham"}, {"@type": "City", "name": "Sheffield"}, {"@type": "AdministrativeArea", "name": "South Yorkshire"}], "logo": "https://makesgoodsense.co.uk/og.png", "knowsAbout": ["Self assessment", "Sole trader accounts", "Construction Industry Scheme", "Making Tax Digital", "Limited company accounts", "VAT returns", "Payroll"], "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Fixed annual prices", "itemListElement": [{"@type": "Offer", "name": "Sole trader accounts and tax return", "priceSpecification": {"@type": "UnitPriceSpecification", "minPrice": "395", "priceCurrency": "GBP", "unitText": "YEAR"}}, {"@type": "Offer", "name": "Sole trader with Making Tax Digital", "priceSpecification": {"@type": "UnitPriceSpecification", "minPrice": "545", "priceCurrency": "GBP", "unitText": "YEAR"}}, {"@type": "Offer", "name": "Limited company accounts (from)", "priceSpecification": {"@type": "UnitPriceSpecification", "minPrice": "415", "priceCurrency": "GBP", "unitText": "YEAR"}}]}}
 </script>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "WebSite", "@id": "https://makesgoodsense.co.uk/#website", "url": "https://makesgoodsense.co.uk/", "name": "Good Sense Accountancy", "inLanguage": "en-GB", "publisher": {"@id": "https://makesgoodsense.co.uk/#business"}}
@@ -80,7 +80,7 @@
           <li><span>Tax bill explained</span><i class="tick" aria-hidden="true"></i></li>
           <li><span>One point of contact</span><i class="tick" aria-hidden="true"></i></li>
         </ul>
-        <div class="receipt__total"><span>Fixed fee, per year</span><strong>&pound;395</strong></div>
+        <div class="receipt__total"><span>From, per year</span><strong>&pound;395</strong></div>
         <p class="receipt__foot">Agreed before we start.</p>
       </div>
     </aside>
@@ -163,7 +163,7 @@
             <h3 class="plan__name">Sole trader</h3>
             <p class="plan__who">For one-person businesses that don&rsquo;t need Making Tax Digital yet.</p>
           </div>
-          <p class="plan__price"><span class="plan__amt">&pound;395</span><span class="plan__per">per year</span></p>
+          <p class="plan__price"><span class="plan__from">from</span><span class="plan__amt">&pound;395</span><span class="plan__per">per year</span></p>
           <ul class="plan__list">
             <li>Year-end accounts</li>
             <li>Self assessment return, filed for you</li>
@@ -178,7 +178,7 @@
             <h3 class="plan__name">Sole trader + MTD</h3>
             <p class="plan__who">For one-person businesses on Making Tax Digital.</p>
           </div>
-          <p class="plan__price"><span class="plan__amt">&pound;545</span><span class="plan__per">per year</span></p>
+          <p class="plan__price"><span class="plan__from">from</span><span class="plan__amt">&pound;545</span><span class="plan__per">per year</span></p>
           <ul class="plan__list">
             <li>Everything in the sole trader package</li>
             <li>Making Tax Digital quarterly updates, four a year</li>
@@ -338,7 +338,7 @@
       <li><a href="accountant-rotherham.html">Accountant in Rotherham</a></li>
       <li><a href="accountant-sheffield.html">Accountant in Sheffield</a></li>
     </ul></div>
-    <p>&copy; 2026 Good Sense Accountancy. Prices are annual and fixed for the services listed. <a href="privacy.html">Privacy notice</a></p>
+    <p>&copy; 2026 Good Sense Accountancy. Prices are annual &ldquo;from&rdquo; prices for the services listed. Bookkeeping, VAT returns and payroll are extra. <a href="privacy.html">Privacy notice</a></p>
   </div>
 </footer>
 
