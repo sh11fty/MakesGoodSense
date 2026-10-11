@@ -5,7 +5,7 @@ Google Business Profile, Search Console and directories need your Google login, 
 ## 1. Google Business Profile (business.google.com)
 - **Name:** Good Sense Accountancy (exactly as on the website, no keywords added)
 - **Category (primary):** Accountant. **Additional:** Tax preparation service, Bookkeeping service, Tax consultant
-- **Address:** 31 Queen Street, Rotherham, S65 2SR. If clients don't visit, tick "I deliver goods and services to my customers" and hide the address
+- **Address:** do NOT enter a street address. Choose "I deliver goods and services to my customers" and hide the address. Never use an address you don't operate from
 - **Service areas:** Rotherham, Sheffield, Wath-upon-Dearne, Maltby, Dinnington, Swinton, Barnsley, Doncaster
 - **Website:** https://makesgoodsense.co.uk/
 - **Phone:** use the same number as the website (still a placeholder on the site, fix it first)
@@ -31,6 +31,6 @@ Bing Places, Apple Business Connect, Yell, Thomson Local, FreeIndex, Cylex, Hotf
 Professional listings once you hold the registration: your AML supervisory body (ICAEW, ACCA, AAT, etc.) directory.
 
 ## 4. Do before launch (blocks trust and local SEO)
-- Replace phone/WhatsApp placeholders on index.html
-- Fill the footer registration placeholders (company no., AML supervisor, ICO, PI insurance)
+- Add the phone number to index.html once you have it (Number People line)
+- Before taking clients: AML supervision registration, ICO registration, professional indemnity insurance. Add their numbers to the footer once issued
 - Add `sameAs` links (GBP, LinkedIn, Facebook) to the JSON-LD on index.html once they exist
