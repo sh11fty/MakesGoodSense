@@ -8,7 +8,7 @@ Google Business Profile, Search Console and directories need your Google login, 
 - **Address:** do NOT enter a street address. Choose "I deliver goods and services to my customers" and hide the address. Never use an address you don't operate from
 - **Service areas:** Rotherham, Sheffield, Wath-upon-Dearne, Maltby, Dinnington, Swinton, Barnsley, Doncaster
 - **Website:** https://makesgoodsense.co.uk/
-- **Phone:** use the same number as the website (still a placeholder on the site, fix it first)
+- **Phone:** 01709 456850 (same as the website, exactly)
 - **Hours:** set the evenings and weekends you will really answer (e.g. weekday evenings, Saturday morning), or use "by appointment". Keep them true: Google shows them to searchers
 - **Description (750 max):**
   Fixed-price accountants in Rotherham, working with clients across Sheffield and South Yorkshire. We do accounts, self assessment and tax returns for sole traders, CIS subcontractors and small limited companies. Sole trader accounts from £395 a year, limited companies from £415. You deal with the same person every time, in plain English. Book a free 15-minute chat and get your fixed price within one working day.
@@ -31,6 +31,5 @@ Bing Places, Apple Business Connect, Yell, Thomson Local, FreeIndex, Cylex, Hotf
 Professional listings once you hold the registration: your AML supervisory body (ICAEW, ACCA, AAT, etc.) directory.
 
 ## 4. Do before launch (blocks trust and local SEO)
-- Add the phone number to index.html once you have it (Number People line)
 - Before taking clients: AML supervision registration, ICO registration, professional indemnity insurance. Add their numbers to the footer once issued
 - Add `sameAs` links (GBP, LinkedIn, Facebook) to the JSON-LD on index.html once they exist
